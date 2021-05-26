@@ -153,7 +153,7 @@
 @endsection
 @section('scripts')
 {!! Html::script('melody/js/data-table.js') !!}
-!! Html::script('melody/js/chart.js') !!}
+{!! Html::script('melody/js/chart.js') !!}
 <script>
     $(function () {
         var varCompra=document.getElementById('compras').getContext('2d');
